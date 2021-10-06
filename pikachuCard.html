@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Challenge</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">Pikachu</div>
+
+		<div class="pikachuContainer">
+			<img src="pika.png" alt="Pikachu">
+		</div>
+
+		<div class="textBody">
+
+			<div class="body1">
+
+				<p>Tipo:  Eléctrico</p>
+				<p>Debilidad:   Tierra</p>
+				<p>Altura:    0,4m</p>
+				<p>Peso: 6,0 Kg</p>
+
+			</div>
+
+			<p> Cuanto más potente es la energía electrica que genera este Pokémon, más suaves y elásticas se vuelven las bolsas de sus mejillas</p>
+
+		</div>
+
+
+
+	</div>
+
+
+<style>
+
+
+body{
+	display: flex;
+	justify-content: center;
+}
+.header{
+	position: absolute;
+	top: -20px;
+	background: rgba(255,68,0,255);
+	border: 3px solid black;
+	height: 30px;
+	width: 60%;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	margin-top: 30px;
+}
+
+	img:hover{
+		margin-top: 30px;
+		transform: scale(1.2);
+	}
+
+
+	.container{
+		position: absolute;
+		background: rgba(255,139,1,255);
+		border: 3px solid black;
+		border-radius: 15px;
+		width: 300px;
+		height: 430px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+
+			}
+	.textBody{
+		width: 300px;
+		margin: 20px;
+	}
+
+	.body1 p, .textBody p{
+		font-weight: bold;
+		text-align: justify;
+		padding:0 20px 0 20px;
+		margin: 3px;
+	}
+
+
+</style>
+
+</body>
+</html>
